@@ -1,0 +1,10 @@
+.drone {
+    display: block;
+    position: fixed;
+    width: 100px;
+    height: 64px;
+    background: url("../drone.png");
+    /* no drop shadow in IE or Edge http://caniuse.com/#search=filter */
+    filter: drop-shadow(-20px 20px 2px rgba(0, 0, 0, 0.1));
+    pointer-events: none;
+}
